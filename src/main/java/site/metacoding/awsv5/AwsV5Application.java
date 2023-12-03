@@ -18,7 +18,7 @@ public class AwsV5Application {
 		SpringApplication.run(AwsV5Application.class, args);
 	}
 	
-
+//
 	
 	// 스프링서버가 최초 실행될 때 단 한번 실행되는 배치 메서드이다. dev 모드일때만 작동한다.
 	@Profile("dev")
