@@ -17,7 +17,9 @@ public class AwsV5Application {
 	public static void main(String[] args) {
 		SpringApplication.run(AwsV5Application.class, args);
 	}
+	// 아모르겟다 push이벤트 발생용 수정하기
 
+	
 	// 스프링서버가 최초 실행될 때 단 한번 실행되는 배치 메서드이다. dev 모드일때만 작동한다.
 	@Profile("dev")
 	@Bean
